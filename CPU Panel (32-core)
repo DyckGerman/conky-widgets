@@ -1,0 +1,85 @@
+# **********************************************************************
+# "CPU Panel (32-core)" theme for Conky by Tony George (teejee2008@gmail.com)
+# modified
+#
+# Webpage: http://teejeetech.blogspot.in/
+# **********************************************************************
+
+
+background yes
+double_buffer yes
+
+alignment bottom_left
+
+border_width 1
+cpu_avg_samples 2
+default_color white
+default_outline_color white
+default_shade_color white
+draw_borders no
+draw_graph_borders yes
+draw_outline no
+draw_shades no
+
+gap_x 50
+gap_y 340
+net_avg_samples 2
+no_buffers yes
+out_to_console no
+out_to_stderr no
+extra_newline no
+
+own_window yes
+own_window_type normal
+own_window_transparent yes
+own_window_colour 000000
+own_window_argb_visual no
+own_window_argb_value 0
+own_window_hints undecorated,below,sticky,skip_taskbar,skip_pager
+
+minimum_size 350 700
+stippled_borders 0
+update_interval 1.0
+uppercase no
+use_spacer none
+
+show_graph_scale no
+show_graph_range no
+
+use_xft yes
+xftalpha 0.1
+xftfont Droid Sans:size=12
+color0 white
+color1 AAAAAA
+color2 AAAAAA
+color3 grey
+
+TEXT
+${color2}CPU ${color0} ${cpu cpu0}%  ${color3}${cpubar cpu0 10,} 
+${cpugraph cpu0 100,412}
+${voffset -10}${cpugraph cpu1 50,100} ${cpugraph cpu2 50,100} ${cpugraph cpu3 50,100} ${cpugraph cpu4 50,100}
+${voffset -14}${cpugraph cpu5 50,100} ${cpugraph cpu6 50,100} ${cpugraph cpu7 50,100} ${cpugraph cpu8 50,100}
+${voffset -14}${cpugraph cpu9 50,100} ${cpugraph cpu10 50,100} ${cpugraph cpu11 50,100} ${cpugraph cpu12 50,100}
+${voffset -14}${cpugraph cpu13 50,100} ${cpugraph cpu14 50,100} ${cpugraph cpu15 50,100} ${cpugraph cpu16 50,100}
+${voffset -14}${cpugraph cpu17 50,100} ${cpugraph cpu18 50,100} ${cpugraph cpu19 50,100} ${cpugraph cpu20 50,100}
+${voffset -14}${cpugraph cpu21 50,100} ${cpugraph cpu22 50,100} ${cpugraph cpu23 50,100} ${cpugraph cpu24 50,100}
+${voffset -14}${cpugraph cpu25 50,100} ${cpugraph cpu26 50,100} ${cpugraph cpu27 50,100} ${cpugraph cpu28 50,100}
+${voffset -14}${cpugraph cpu29 50,100} ${cpugraph cpu30 50,100} ${cpugraph cpu31 50,100} ${cpugraph cpu32 50,100}
+
+${font Ubuntu:size=10}${voffset -450}${color3}${goto 10}1 ${goto 113}2 ${goto 216}3 ${goto 0} ${goto 319}4
+${voffset 39}${goto 10}5 ${goto 113}6 ${goto 216}7 ${goto 319}8
+${voffset 39}${goto 10}9 ${goto 113}10 ${goto 216}11 ${goto 319}12
+${voffset 39}${goto 10}13 ${goto 113}14 ${goto 216}15 ${goto 319}16
+${voffset 39}${goto 10}17 ${goto 113}18 ${goto 216}19 ${goto 319}20
+${voffset 39}${goto 10}21 ${goto 113}22 ${goto 216}23 ${goto 319}24
+${voffset 39}${goto 10}25 ${goto 113}26 ${goto 216}27 ${goto 319}28
+${voffset 39}${goto 10}29 ${goto 113}30 ${goto 216}31 ${goto 319}32
+
+${font Ubuntu:size=8}${voffset -399}${color3}${goto 65}${freq_g (1)}GHz ${goto 165}${freq_g (2)}GHz ${goto 265}${freq_g (3)}GHz ${goto 0} ${goto 365}${freq_g (4)}GHz
+${voffset 42}${goto 68}${freq_g (5)}GHz ${goto 173}${freq_g (6)}GHz ${goto 277}${freq_g (7)}GHz ${goto 381}${freq_g (8)}GHz
+${voffset 42}${goto 68}${freq_g (9)}GHz ${goto 173}${freq_g (10)}GHz ${goto 277}${freq_g (11)}GHz ${goto 381}${freq_g (12)}GHz
+${voffset 42}${goto 68}${freq_g (13)}GHz ${goto 173}${freq_g (14)}GHz ${goto 277}${freq_g (15)}GHz ${goto 381}${freq_g (16)}GHz
+${voffset 42}${goto 68}${freq_g (17)}GHz ${goto 173}${freq_g (18)}GHz ${goto 277}${freq_g (19)}GHz ${goto 381}${freq_g (20)}GHz
+${voffset 42}${goto 68}${freq_g (21)}GHz ${goto 173}${freq_g (22)}GHz ${goto 277}${freq_g (23)}GHz ${goto 381}${freq_g (24)}GHz
+${voffset 42}${goto 68}${freq_g (25)}GHz ${goto 173}${freq_g (26)}GHz ${goto 277}${freq_g (27)}GHz ${goto 381}${freq_g (28)}GHz
+${voffset 42}${goto 68}${freq_g (29)}GHz ${goto 173}${freq_g (30)}GHz ${goto 277}${freq_g (31)}GHz ${goto 381}${freq_g (32)}GHz
